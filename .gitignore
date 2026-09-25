@@ -1,0 +1,34 @@
+# Environment variables (CRITICAL: Never commit .env to version control)
+.env
+.env.local
+.env.*.local
+*.env
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+*/node_modules/
+
+# Production builds
+frontend/dist/
+dist/
+build/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+*.log
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
