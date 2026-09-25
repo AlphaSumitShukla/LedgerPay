@@ -2,11 +2,6 @@
 
 A production-grade, full-stack financial banking and double-entry ledger platform built with **Node.js, Express, MongoDB (ACID Transactions)** and a modern **React 19 + Vite** frontend.
 
-![License](https://img.shields.io/badge/License-MIT-blue.svg)
-![Node](https://img.shields.io/badge/Node.js-18%2B-green.svg)
-![React](https://img.shields.io/badge/React-19.0-61dafb.svg)
-![MongoDB](https://img.shields.io/badge/MongoDB-Atlas%20%2F%20ReplicaSet-brightgreen.svg)
-![Vite](https://img.shields.io/badge/Vite-8.0-646CFF.svg)
 
 ---
 
@@ -128,7 +123,3 @@ npm run dev
 | `POST` | `/api/transactions/` | Transfer funds between accounts (ACID) | ✅ |
 | `POST` | `/api/transactions/system/initial-funds` | Deposit system funds into account | ✅ |
 
----
-
-## 📄 License
-This project is licensed under the MIT License.
